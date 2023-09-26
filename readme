@@ -1,0 +1,19 @@
+# Kredi Kartı Validasyon Uygulaması
+
+Bu basit React Native uygulaması, kullanıcıların kredi kartı numaralarını girmelerine izin verir ve girilen numaranın geçerliliğini doğrular. Ayrıca kredi kartı numarasını 4'lü gruplara böler ve yalnızca rakam girişine izin verir.
+
+## Başlarken
+
+Uygulamayı yerel ortamınızda başlatmak için aşağıdaki adımları izleyin:
+
+1. Bu depoyu yerel makinenize klonlayın veya ZIP dosyasını indirin.
+
+2. Terminali açın ve projenin kök dizinine gidin.
+
+3. npm install komutunu çalıştırın ve gerekli bağımlılıkları kurun.
+
+4. expo start komutunu çalıştırın ve uygulamanızı ayağa kaldırın.
+
+
+# Ek Bilgiler
+- Bu uygulama kredi-karti-dogrulama adlı bir npm kütüphanesi kullanmaktadır.
