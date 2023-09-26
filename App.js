@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Button, Image } from 'react-native';
 import { isValidCreditCard } from 'kredi-karti-validasyon';
 
 export default function App() {
@@ -32,12 +32,13 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Kredi Kartı Numarası (16 Hane):</Text>
+      <Image source={require('./assets/atg.png')} style={styles.logo} />
+      <Text style={styles.text} >Kredi Kartı Numarası (16 Hane):</Text>
       <TextInput
         style={styles.input}
         onChangeText={handleCardNumberChange}
         value={formattedCardNumber}
-        keyboardType="numeric"
+        keyboardType="number-pad"
         maxLength={19} // 16 rakam ve 3 boşluk
       />
       <Button title="Doğrula" onPress={validateCard} />
@@ -51,11 +52,21 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
+  container: { 
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+  },
+  text: {
+    fontSize: 18,
+    marginBottom: 20,
+    fontWeight: 'bold'
+  },
+  logo: {
+    width: 400,
+    height: 111,
+    marginBottom: 50,
   },
   input: {
     width: 200,
