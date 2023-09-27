@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, Button, Image } from 'react-native';
-import { isValidCreditCard } from 'kredi-karti-validasyon';
+import { isValidCreditCard } from 'dogrulama';
 
 export default function App() {
   const [cardNumber, setCardNumber] = useState('');
