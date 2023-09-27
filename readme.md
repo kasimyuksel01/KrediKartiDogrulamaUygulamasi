@@ -17,3 +17,10 @@ Uygulamayı yerel ortamınızda başlatmak için aşağıdaki adımları izleyin
 
 # Ek Bilgiler
 - Bu uygulama dogrulama adlı bir npm kütüphanesi kullanmaktadır.
+
+# Çıktılar
+
+![Girilen kredi kartı numarası GEÇERSİZ olunca alınan çıktı](output/gecersiz.jpg)
+
+
+![Girilen kredi kartı numarası GEÇERLİ olunca alınan çıktı](output/gecerli.jpg)
