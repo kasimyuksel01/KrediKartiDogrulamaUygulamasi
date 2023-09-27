@@ -25,14 +25,14 @@ Uygulamayı yerel ortamınızda başlatmak için aşağıdaki adımları izleyin
   <tr>
     <td align="center">
       <a href="#">
-        <img src="output/gecerli.jpg" height="1000" width="200">
+        <img src="output/gecerli.jpg" height="500" width="150">
       </a>
       <br>
       Girilen kredi kartı numarası GEÇERLİ olunca alınan çıktı.
     </td>
     <td align="center">
       <a href="#">
-        <img src="outpur/gecersiz.png" height="1000" width="200">
+        <img src="outpur/gecersiz.PNG" height="500" width="150">
       </a>
       <br>
       Girilen kredi kartı numarası GEÇERSİZ olunca alınan çıktı.
