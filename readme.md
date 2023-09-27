@@ -20,7 +20,8 @@ Uygulamayı yerel ortamınızda başlatmak için aşağıdaki adımları izleyin
 
 # Çıktılar
 
-![Girilen kredi kartı numarası GEÇERSİZ olunca alınan çıktı](output/gecersiz.jpg)
+<img src="output/gecerli.jpg" alt="Girilen kredi kartı numarası GEÇERLİ olunca alınan çıktı" width="400" height="180">
 
 
-![Girilen kredi kartı numarası GEÇERLİ olunca alınan çıktı](output/gecerli.jpg)
+
+<img src="output/gecersiz.PNG" alt="Girilen kredi kartı numarası GEÇERSİZ olunca alınan çıktı" width="400" height="180">
