@@ -32,7 +32,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Image source={require('./assets/atg.png')} style={styles.logo} />
+      
       <Text style={styles.text} >Kredi Kartı Numarası (16 Hane):</Text>
       <TextInput
         style={styles.input}
@@ -62,11 +62,6 @@ const styles = StyleSheet.create({
     fontSize: 18,
     marginBottom: 20,
     fontWeight: 'bold'
-  },
-  logo: {
-    width: 400,
-    height: 111,
-    marginBottom: 50,
   },
   input: {
     width: 200,
