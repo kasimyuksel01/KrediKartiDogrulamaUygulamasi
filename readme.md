@@ -32,7 +32,7 @@ Uygulamayı yerel ortamınızda başlatmak için aşağıdaki adımları izleyin
     </td>
     <td align="center">
       <a href="#">
-        <img src="output/gecersiz.png" height="450" width="220">
+        <img src="output/gecersiz.PNG" height="450" width="220">
       </a>
       <br>
       Girilen kredi kartı numarası GEÇERSİZ olunca alınan çıktı.
